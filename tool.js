@@ -191,7 +191,7 @@ function insertRule(sheet,selectorText,cssText,position){
 function deleteRule(sheet,index){
 	if(typeof sheet.deleteRule!='undefined'){	//W3C
 		sheet.deleteRule(index);
-	}else if(sheet.removeRule!='undefined'){	//IE
+	}else if(typeof sheet.removeRule!='undefined'){	//IE
 		sheet.removeRule(index);
 	}
 }

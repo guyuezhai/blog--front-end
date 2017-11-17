@@ -41,7 +41,7 @@ function Base(args){
 					node=childElements;	
 				}
 			}
-		this.elements=childElements;	
+			this.elements=childElements;	
 		}else{
 			//find模拟
 			switch (args.charAt(0)){

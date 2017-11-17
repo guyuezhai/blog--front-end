@@ -3,8 +3,12 @@ body{
 	padding: 0;
 	font-size: 12px;
 	width: 100%;
-	background:none;
-	color: #333;
+	height: 100%;
+	background: url(images/photo7.jpg) no-repeat fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	/* color: #333; */
 
 }
 ul,dl,dd,h2,p,form{
@@ -24,13 +28,19 @@ ul li{
 	margin: 0 auto;
 }
 #header .logo{
-	width: 100px;
+	width: 50px;
 	height: 30px;
 	float: left;
 
 }
 #header .logo img{
 	display: block;
+}
+#header .header{
+	float: left;
+	line-height: 30px;
+	font-size: 18px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 #header .member{
 	width: 70px;
